@@ -3,5 +3,5 @@
   <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-17.1" />
   <project name="Valera1978/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-17.1" />
   <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-17.1" />
-  <project name="Valera1978/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
 </manifest>
