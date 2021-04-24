@@ -6,12 +6,6 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="TALUAtGitHub/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-18.1" />
 
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project name="TALUAtGitHub/android_vendor_lineage" path="vendor/lineage" remote="github" revision="lineage-18.1" />
-
-  <remove-project name="LineageOS/android_system_netd" />
-  <project name="TALUAtGitHub/android_system_netd" path="system/netd" remote="github" revision="lineage-18.1" />
-
   <remove-project name="LineageOS/android_system_core" />
   <project name="TALUAtGitHub/android_system_core" path="system/core" remote="github" revision="lineage-18.1" />
 
