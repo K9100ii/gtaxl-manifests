@@ -9,6 +9,9 @@
   <remove-project name="LineageOS/android_system_core" />
   <project name="TALUAtGitHub/android_system_core" path="system/core" remote="github" revision="lineage-18.1" />
 
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project name="TALUAtGitHub/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="github" revision="lineage-18.1" />
+
   <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-18.1" />
   <project name="TALUAtGitHub/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-18.1" />
   <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-18.1" />
