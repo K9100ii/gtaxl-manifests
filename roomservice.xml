@@ -3,9 +3,6 @@
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="TALUAtGitHub/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-18.1" />
 
-  <remove-project name="LineageOS/android_system_core" />
-  <project name="TALUAtGitHub/android_system_core" path="system/core" remote="github" revision="lineage-18.1" />
-
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="TALUAtGitHub/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="github" revision="lineage-18.1" />
 
