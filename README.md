@@ -1,4 +1,4 @@
-# Manifest for building LineageOS for gtaxlwifi and gtanotexlwifi
+# Manifest for building LineageOS 18.1 for gtaxlwifi and gtanotexlwifi
 
 `gtaxlwifi` is the codename for the WiFi-only variant of the Samsung Galaxy Tab A 10.1" (2016), with model SM-T580.
 

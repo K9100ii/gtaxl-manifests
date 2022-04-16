@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- If these forks become out-of-date, rebase them on LineageOS' repositories.
+       These forks only contain patches for signature spoofing. If signature spoofing
+       is not necessary, these forks don't need to be used. -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="TALUAtGitHub/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-18.1" />
-
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="TALUAtGitHub/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="github" revision="lineage-18.1" />
 
+  <project name="TALUAtGitHub/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-18.1" />
   <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-18.1" />
   <project name="TALUAtGitHub/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-18.1" />
+  <project name="TALUAtGitHub/android_vendor_samsung_gtaxl-common" path="vendor/samsung/gtaxl-common" remote="github" revision="lineage-18.1" />
   <project name="TALUAtGitHub/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-18.1" />
   <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
