@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="TALUAtGitHub/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-19.1" />
+
+  <remove-project name="LineageOS/android_packages_modules_Permission" />
+  <project name="TALUAtGitHub/android_packages_modules_Permission" path="packages/modules/Permission" remote="github" revision="lineage-19.1" />
+
+  <remove-project name="platform/system/bpf" />
+  <project name="TALUAtGitHub/android_system_bpf" path="system/bpf" remote="github" revision="android-12L" />
+  <remove-project name="platform/system/netd" />
+  <project name="TALUAtGitHub/android_system_netd" path="system/netd" remote="github" revision="lineage-19.1" />  
+
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="TALUAtGitHub/android_system_core" path="system/core" remote="github" revision="lineage-19.1" />
+
+  <project name="TALUAtGitHub/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_vendor_samsung_gtaxl-common" path="vendor/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-19.1" />
+
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="github" revision="lineage-19.1" />
+
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.1" />
+</manifest>
