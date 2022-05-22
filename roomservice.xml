@@ -14,6 +14,9 @@
   <remove-project name="LineageOS/android_system_core" />
   <project name="TALUAtGitHub/android_system_core" path="system/core" remote="github" revision="lineage-19.1" />
 
+  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+  <project name="TALUAtGitHub/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lineage-19.1" />
+
   <project name="TALUAtGitHub/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
   <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
   <project name="TALUAtGitHub/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-19.1" />
