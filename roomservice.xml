@@ -34,10 +34,12 @@
   <!-- Kernel sources -->
   <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-19.1" />
 
-  <!-- SLSI BSP sources -->
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="github" revision="lineage-19.1" />
+  <!-- Linaro SLSI BSP sources -->
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-19.1" />
+  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-19.1" />
 
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.1" />
 </manifest>
