@@ -4,42 +4,42 @@
   <!-- Contains patches for signature spoofing and a possible slight improvement in screen recording quality.
        Optional if neither are required, must also remove android_packages_modules_Permission fork if removed. -->
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="TALUAtGitHub/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-19.1" />
 
   <!-- Contains another patch for signature spoofing - Optional if signature spoofing isn't required, must also
        remove android_frameworks_base fork if removed. -->
   <remove-project name="LineageOS/android_packages_modules_Permission" />
-  <project name="TALUAtGitHub/android_packages_modules_Permission" path="packages/modules/Permission" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_packages_modules_Permission" path="packages/modules/Permission" remote="github" revision="lineage-19.1" />
 
   <!-- Contain patches needed since the kernel has no eBPF support - REQUIRED -->
   <remove-project name="platform/system/bpf" />
-  <project name="TALUAtGitHub/android_system_bpf" path="system/bpf" remote="github" revision="android-12L" />
+  <project name="K9100ii/android_system_bpf" path="system/bpf" remote="github" revision="android-12L" />
   <remove-project name="platform/system/netd" />
-  <project name="TALUAtGitHub/android_system_netd" path="system/netd" remote="github" revision="lineage-19.1" />  
+  <project name="K9100ii/android_system_netd" path="system/netd" remote="github" revision="lineage-19.1" />  
   <!-- END OF FORKS -->
 
   <!-- Open source aptX and aptX HD encoders -->
-  <project name="TALUAtGitHub/android_external_aptxenc" path="external/aptxenc" remote="github" revision="android12L" />
+  <project name="K9100ii/android_external_aptxenc" path="external/aptxenc" remote="github" revision="android12L" />
 
   <!-- Device trees -->
-  <project name="TALUAtGitHub/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_device_samsung_gtanotexllte" path="device/samsung/gtanotexllte" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_device_samsung_gtanotexllte" path="device/samsung/gtanotexllte" remote="github" revision="lineage-19.1" />
   <!-- Vendor trees -->
-  <project name="TALUAtGitHub/android_vendor_samsung_gtaxl-common" path="vendor/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_vendor_samsung_gtaxllte" path="vendor/samsung/gtaxllte" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_vendor_samsung_gtaxl-common" path="vendor/samsung/gtaxl-common" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_vendor_samsung_gtaxllte" path="vendor/samsung/gtaxllte" remote="github" revision="lineage-19.1" />
   <!-- Kernel sources -->
-  <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-19.1" />
 
   <!-- Linaro SLSI BSP sources -->
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-19.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-19.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-19.1" />
 
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.1" />
 </manifest>
