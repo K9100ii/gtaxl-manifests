@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project name="TALUAtGitHub/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-17.1" />
 
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="TALUAtGitHub/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
 
-  <project name="TALUAtGitHub/android_device_samsung_gtaxlwifi-old-nocommontrees" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-17.1" />
-  <project name="TALUAtGitHub/android_vendor_samsung_gtaxlwifi-old-nocommontrees" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-17.1" />
-  <project name="TALUAtGitHub/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_device_samsung_gtaxlwifi-old-nocommontrees" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_vendor_samsung_gtaxlwifi-old-nocommontrees" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-17.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
 
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-17.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-17.1" />
-  <project name="TALUAtGitHub/android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-17.1" />
+  <project name="K9100ii/android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="github" revision="lineage-17.1" />
 </manifest>
