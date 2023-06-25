@@ -13,7 +13,7 @@ cd lineage-18.1
 
 - Initialize repo in this directory with the LineageOS 18.1 android repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
