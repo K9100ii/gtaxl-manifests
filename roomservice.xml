@@ -14,8 +14,8 @@
   <!-- Contain patches needed since the kernel has no eBPF support - REQUIRED -->
   <remove-project name="platform/system/bpf" />
   <project name="K9100ii/android_system_bpf" path="system/bpf" remote="github" revision="android-12L" />
-  <remove-project name="platform/system/netd" />
-  <project name="K9100ii/android_system_netd" path="system/netd" remote="github" revision="lineage-19.1" />  
+  <remove-project name="LineageOS/android_system_netd" />
+  <project name="K9100ii/android_system_netd" path="system/netd" remote="github" revision="lineage-19.1" />
 
   <!-- Contains a patch for improving graphical performance - Optional -->
   <remove-project name="LineageOS/android_frameworks_native" />
