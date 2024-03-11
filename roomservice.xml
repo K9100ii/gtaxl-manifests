@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- FORKS -->
-  <!-- Contains patches for signature spoofing and a possible slight improvement in screen recording quality.
-       Optional if neither are required, must also remove android_packages_modules_Permission fork if removed. -->
+  <!-- Contains a patch for a possible slight improvement in screen recording quality. Optional if not desired. -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="K9100ii/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-19.1" />
-
-  <!-- Contains another patch for signature spoofing - Optional if signature spoofing isn't required, must also
-       remove android_frameworks_base fork if removed. -->
-  <remove-project name="LineageOS/android_packages_modules_Permission" />
-  <project name="K9100ii/android_packages_modules_Permission" path="packages/modules/Permission" remote="github" revision="lineage-19.1" />
 
   <!-- Contain patches needed since the kernel has no eBPF support - REQUIRED -->
   <remove-project name="platform/system/bpf" />
