@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FORKS -->
+  <!-- Contain patches necessary for working around the old kernel not having (anywhere near the required level of) eBPF support - REQUIRED, otherwise no boot -->
+  <remove-project name="platform/frameworks/libs/net" />
+  <project name="K9100ii/android_frameworks_libs_net" path="frameworks/libs/net" remote="github" revision="lineage-20.0-nobpf" />
+  <remove-project name="LineageOS/android_packages_modules_Connectivity" />
+  <project name="K9100ii/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="github" revision="lineage-20.0-nobpf" />
+  <remove-project name="platform/system/bpf" />
+  <project name="K9100ii/android_system_bpf" path="system/bpf" remote="github" revision="lineage-20.0-nobpf" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="K9100ii/android_system_core" path="system/core" remote="github" revision="lineage-20.0-nobpf" />
+  <remove-project name="LineageOS/android_system_netd" />
+  <project name="K9100ii/android_system_netd" path="system/netd" remote="github" revision="lineage-20.0-nobpf" />
+
+  <!-- Contains a patch for a possible slight improvement in screen recording quality - Optional if not desired -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="K9100ii/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-20.0" />
+
+  <!-- Contains a patch for improving graphical performance - Optional -->
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project name="K9100ii/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-20.0" />
+  <!-- END OF FORKS -->
+
+  <!-- Device trees -->
+  <project name="K9100ii/android_device_samsung_gtaxl-common" path="device/samsung/gtaxl-common" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_device_samsung_gtaxlwifi" path="device/samsung/gtaxlwifi" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_device_samsung_gtaxllte" path="device/samsung/gtaxllte" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_device_samsung_gtanotexlwifi" path="device/samsung/gtanotexlwifi" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_device_samsung_gtanotexllte" path="device/samsung/gtanotexllte" remote="github" revision="lineage-20" />
+  <!-- Vendor trees -->
+  <project name="K9100ii/android_vendor_samsung_gtaxl-common" path="vendor/samsung/gtaxl-common" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_vendor_samsung_gtaxlwifi" path="vendor/samsung/gtaxlwifi" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_vendor_samsung_gtaxllte" path="vendor/samsung/gtaxllte" remote="github" revision="lineage-20" />
+  <!-- Kernel sources -->
+  <project name="K9100ii/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-20" />
+
+  <!-- Linaro SLSI BSP sources -->
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_codec2" path="hardware/samsung_slsi-linaro/codec2" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-20" />
+  <project name="K9100ii/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-20" />
+
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-20" />
+</manifest>
